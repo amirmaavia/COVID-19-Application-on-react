@@ -30,8 +30,8 @@ jobs:
         
         
         # Runs a set of commands using the runners shell
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.1.0
+    - name: GitHub Action for npm in Alpine Linux
+       uses: shinnn/actions-npm-alpine@1.0.0
       with:
         #yarn command
         cmd: install 
